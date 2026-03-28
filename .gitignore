@@ -1,0 +1,7 @@
+*.fastq
+*.bam
+*.bcf
+*.sam
+data/raw/
+results/bam/
+

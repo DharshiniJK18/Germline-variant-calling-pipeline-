@@ -1,0 +1,11 @@
+name: variants
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - bwa
+  - samtools
+  - bcftools
+  - seqtk
+  - python
+  - biopython
