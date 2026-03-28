@@ -9,30 +9,7 @@ Align reads to a reference genome (Mycobacterium ulcerans Agy99)
 Generate sorted alignment files
 Perform variant calling using BCFtools
 Extract and analyze variant positions
-PROJECT STRUCTURE:
-variant-calling-bcftools/
-│
-├── data/
-│   ├── raw/          # (ignored in repo)
-│   └── trimmed/
-│
-├── reference/
-│   └── Agy99.fasta
-│
-├── results/
-│   ├── vcf/
-│   │   └── variants.vcf
-│   ├── stats/
-│   │   └── mapping.txt
-│   └── pos.txt
-│
-├── scripts/
-│   └── pipeline.sh
-│
-├── env/
-│   └── environment.yml
-│
-└── README.md
+
 TOOLS AND TECHNOLOGIES:
 BWA – sequence alignment
 SAMtools – BAM processing
